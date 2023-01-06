@@ -2,6 +2,7 @@
 :root {
     --primary-color: #2dd4bf;
     --green: #166534; 
+    --off-white: #d4d4d8; 
 }
 body {
     font-family: 'Playfair Display', 
@@ -71,4 +72,13 @@ hr {
 }
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
+}
+.section {
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+}
+.ow {
+    background-color: var(--off-white);
 }
